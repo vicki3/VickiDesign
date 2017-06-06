@@ -1,0 +1,220 @@
+        .jumb {
+        padding-top: 20px;
+        height: 100px;
+        background-color: black;
+        color: white;
+        background-size: cover;
+    }
+    
+    p1 {
+        margin-left: 30px;
+        font-size: 45px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+    
+    h {
+        margin-left: 30px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 200;
+    }
+    
+    .page {
+        width: 100%;
+        height: 40px;
+        background-color: lightblue;
+        color: black;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 10px;
+    }
+    
+    h1 {
+        margin-left: 30px;
+        font-size: 45px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+    
+    p {
+        margin-left: 30px;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+    }
+    
+    .feature {
+        height: 50px;
+        background-color: lightgrey;
+        color: white;
+        line-height: 50px;
+    }
+    
+    .feature:hover {
+        background-color: darkgrey;
+        text-decoration: none;
+    }
+    
+    .copy-right {
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    body a:hover {
+        text-decoration: none;
+    }
+    
+    .feature:hover {
+        background-color: darkgrey;
+        text-decoration: none;
+    }
+    
+    h1 {
+        font-size: 32px;
+        color: darkgray;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+    
+    h2 {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 200;
+        color: white;
+        line-height: 10px;
+    }
+    
+    h3 {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+    }
+    
+    h4 {
+        font-size: 15px;
+    }
+    
+    p {
+        text-align: center;
+    }
+    
+    .section-title {
+        text-align: center;
+        font-weight: 300;
+    }
+    
+    .short {
+        border-bottom: 1px solid #aaa;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .container1 {
+        text-align: center
+    }
+    /* note header */
+    
+    #portfolioSection {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    #portfolioSection .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .pages {
+        width: 100%;
+        height: 300px;
+        background-color: lightblue;
+        color: black;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 10px;
+    }
+    
+    #slideshow .item {
+        height: 300px;
+    }
+    
+    @media screen and (max-width: 767px) {
+        #slideshow .item {
+            height: 300px;
+        }
+        #slideshow .item img {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto;
+        }
+    }
+    
+    #page1 {
+        background-image: url(../image/IMG_0993.jpg);
+    }
+    
+    #page2 {
+        background-image: url(../image/IMG_0497.jpg);
+    }
+    
+    #page3 {
+        background-image: url(../image/IMG_1124%20%E6%8B%B7%E8%B2%9D.jpg);
+    }
+    
+    #page4 {
+        background-image: url(../image/IMG_3878%20%E6%8B%B7%E8%B2%9D.jpg);
+    }
+    
+    #scrollTopBtn,
+    .app .top .fa {
+        color: #fff;
+        border-radius: 50%
+    }
+    
+    #scrollTopBtn {
+        width: 60px;
+        height: 60px;
+        background-color: lightblue;
+        text-align: center;
+        line-height: 60px;
+        position: fixed;
+        bottom: 35px;
+        right: 35px;
+        display: none
+    }
+    
+    .fa-arrow-circle-up {
+        position: fixed;
+        bottom: 37px;
+        right: 41px;
+    }
+    
+    #scrollTopBtn.scroll {
+        display: block
+    }
+    
+    #scrollTopBtn:focus,
+    #scrollTopBtn:hover {
+        text-decoration: none;
+        outline: 0
+    }
+    
+    .Originals,
+    .Favorite {
+        padding-top: 30px;
+    }
+    
+    @media screen and (max-width: 500px) {
+        .jumb {
+            height: 150px;
+            padding-left: 10px;
+        }
+        .page {
+            height: 70px;
+        }
