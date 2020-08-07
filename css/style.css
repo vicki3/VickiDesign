@@ -143,19 +143,19 @@ p {
 
 #page1{
     background-image: url(../image/7.jpeg);
-    width: 35%;
+    width: 300px;
 }
 #page2{
     background-image: url(../image/8.jpeg);
-    width: 15%;
+    width: 200px;
 }
 #page3{
     background-image: url(../image/IMG_5288.jpg);
-    width: 20%;
+    width: 200px;
 }
 #page4{
     background-image: url(../image/IMG_0756.jpg);
-    width: 15%;
+    width: 200px;
 }
 
 #scrollTopBtn,
