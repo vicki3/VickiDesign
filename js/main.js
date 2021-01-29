@@ -6,7 +6,7 @@ $(function () {
         //宣告navbarHeight = 50
         var navbarHeight = 50;
         //宣告動畫的秒數為1250
-        var animationDuration = 1250;
+        var animationDuration = 1200;
         //宣告timingFunction = 'easeInOutCubic'
         var timingFunction = 'easeInOutCubic';
 
